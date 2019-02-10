@@ -1,3 +1,5 @@
-mkdir -p output/bin output/conf
+rm -rf output
+#mkdir -p output/bin output/conf
 export GO15VENDOREXPERIMENT="1"
-go build -ldflags -o ./output/bin/${RUN_NAME}
+#go build -ldflags -o ./output/bin/${RUN_NAME}
+go build
